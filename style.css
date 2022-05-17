@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    padding-top: 20px;
+}
+ 
+p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+body{
+    background: #2CB3F3;
+}
+
+.tudo{
+    display: flex;
+    justify-content: center;
+}
+
+.corpo{
+    width: 700px;
+    height: 500px;
+    background-color: #ffffff;
+    display: flex;
+    position: relative;
+    border-radius: 80px 80px 2px 2px;
+    z-index: 1px;
+}
+  
+.rosto{
+    width: 550px;
+    height: 400px;
+    background: #FFE1C9 ;
+    border-radius: 200px;
+    display: flex;
+    position: relative;
+    z-index: 2px;
+    top:10%;
+    left: 10%;
+}
+
+.olho1{
+    width: 60px;
+    height: 60px;
+    background: black;
+    border-radius: 100%;
+    position: relative;
+    z-index: 3px;
+    display: inline-flex;
+    
+}
+
+.olho2{
+    width: 60px;
+    height: 60px;
+    background: black;
+    border-radius: 100%;
+    position: relative;
+    z-index: 3px;
+    display: inline-flex;
+    margin-left: 200px;
+}
+
+.olhos{
+    display: inline-flex;
+    position: relative;
+    top: 20%;
+    left: 21%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    position: relative;
+    z-index: 4px;
+    top: 45%;
+    right: 129.5%;
+}
+
+input{
+    width: 15em;
+    height: 3em;
+    border: 1px solid black ;
+}
+
+button{
+    padding: 15px;
+    width: 120px;
+    background-color: #55A603;
+    border: none;
+    border-bottom: 1px solid rgb(73, 73, 73);
+    border-radius: 6px;
+    color:#B2F272;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.botao{
+   display: flex;
+   justify-content: center;
+   margin-top: 2vw;
+    
+}
+
+button:hover{
+    color: #55A603;
+    background-color: #B2F272;
+}
